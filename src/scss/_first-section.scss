@@ -1,0 +1,28 @@
+@import "variables";
+
+.txt-banner {
+    text-align: center;
+    background-color: $eerieBlack;
+    color: $white;
+}
+
+.first-section {
+    background-color: $almond;
+}
+
+.img-mini-banner {
+    position: relative;
+    min-height: 124px;
+    background-image: url("https://picsum.photos/id/171/259/124");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media #{$breakpoint-medium} {
+    .first-section-info, .first-banner-container {
+        margin-top: 105px;
+    }
+    .first-section {
+        max-height: 450px;
+    }
+}
