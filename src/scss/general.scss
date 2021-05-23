@@ -3,13 +3,16 @@
 @import "slider";
 @import "circles";
 @import "first-section";
+@import "second-section";
 
 .page-title {
     font-size: 30px;
     padding-top: 10px;
     padding-bottom: 10px;
+    font-size: 41px;
 }
 
 section {
+    font-family: 'PT Sans', sans-serif;
     font-size: 18px;
 }

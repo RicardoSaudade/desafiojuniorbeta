@@ -1,5 +1,9 @@
 @import "variables";
 
+.first-section-info {
+    text-align: left;
+}
+
 .txt-banner {
     text-align: center;
     background-color: $eerieBlack;
@@ -10,10 +14,18 @@
     background-color: $almond;
 }
 
+.img-banner {
+    position: relative;
+    min-height: 315px;
+    background-image: url(https://picsum.photos/id/1052/339/320);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
 .img-mini-banner {
     position: relative;
-    min-height: 124px;
-    background-image: url("https://picsum.photos/id/171/259/124");
+    min-height: 200px;
+    background-image: url(https://picsum.photos/id/171/305/200);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -23,6 +35,20 @@
         margin-top: 105px;
     }
     .first-section {
-        max-height: 450px;
+        max-height: 500px;
+    }
+    .img-banner {
+        position: relative;
+        min-height: 315px;
+        background-image: url(https://picsum.photos/id/1052/800/400);
+        background-repeat: no-repeat;
+        background-size: auto;
+    }
+    .img-mini-banner {
+        position: relative;
+        min-height: 200px;
+        background-image: url(https://picsum.photos/id/171/800/200);
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 }
